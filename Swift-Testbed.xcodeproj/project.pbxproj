@@ -12,7 +12,7 @@
 		ED02CF471DB8EBE20066330D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED02CF451DB8EBE20066330D /* Main.storyboard */; };
 		ED02CF491DB8EBE20066330D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED02CF481DB8EBE20066330D /* Assets.xcassets */; };
 		ED02CF4C1DB8EBE20066330D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED02CF4A1DB8EBE20066330D /* LaunchScreen.storyboard */; };
-		ED02CF571DB8EBE20066330D /* Swift_TestbedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED02CF561DB8EBE20066330D /* Swift_TestbedTests.swift */; };
+		ED02CF571DB8EBE20066330D /* CapitalizeManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED02CF561DB8EBE20066330D /* CapitalizeManagerTests.swift */; };
 		ED02CF621DB8EDEC0066330D /* CapitalizeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED02CF611DB8EDEC0066330D /* CapitalizeManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,7 +35,7 @@
 		ED02CF4B1DB8EBE20066330D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED02CF4D1DB8EBE20066330D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED02CF521DB8EBE20066330D /* Swift-TestbedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-TestbedTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED02CF561DB8EBE20066330D /* Swift_TestbedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_TestbedTests.swift; sourceTree = "<group>"; };
+		ED02CF561DB8EBE20066330D /* CapitalizeManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapitalizeManagerTests.swift; sourceTree = "<group>"; };
 		ED02CF581DB8EBE20066330D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED02CF611DB8EDEC0066330D /* CapitalizeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CapitalizeManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,7 +93,7 @@
 		ED02CF551DB8EBE20066330D /* Swift-TestbedTests */ = {
 			isa = PBXGroup;
 			children = (
-				ED02CF561DB8EBE20066330D /* Swift_TestbedTests.swift */,
+				ED02CF561DB8EBE20066330D /* CapitalizeManagerTests.swift */,
 				ED02CF581DB8EBE20066330D /* Info.plist */,
 			);
 			path = "Swift-TestbedTests";
@@ -214,7 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED02CF571DB8EBE20066330D /* Swift_TestbedTests.swift in Sources */,
+				ED02CF571DB8EBE20066330D /* CapitalizeManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
