@@ -8,7 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TestViewController: UIViewController {
+    
+    @IBOutlet weak var inputText: UITextField!
+    @IBOutlet weak var resultText: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +23,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func onCapitalizePressed(_ sender: AnyObject) {
+        let manager = CapitalizeManager();
+        resultText.text = manager.capitalizeString(string: inputText.text!);
+    }
 
 }
 
